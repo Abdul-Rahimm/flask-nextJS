@@ -14,7 +14,8 @@ def main_page():
 @app.route("/api/home", methods=["GET"])
 def return_home():
     return jsonify({
-        'message':"hello world"
+        'message':"hello world",
+        'people':['jack','hello','bob']
     })
 
 #to run our app
