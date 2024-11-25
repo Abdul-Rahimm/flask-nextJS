@@ -15,7 +15,6 @@ def main_page():
 def return_home():
     return jsonify({
         'message':"hello world",
-        'people':['jack','hello','bob']
     })
 
 #to run our app
